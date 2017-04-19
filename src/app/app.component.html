@@ -2,5 +2,5 @@
   {{title}}
 </h1>
 
-<app-counter <!--[counter]="componentCounterValue"--> (counterChange)="counterBind($event)"></app-counter>
+<app-counter [counter]="componentCounterValue" (counterChange)="counterBind($event)"></app-counter>
 <p>ComponentCounterValue = {{componentCounterValue}}</p>
